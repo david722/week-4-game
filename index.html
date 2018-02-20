@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Crystal Collector</title>
+  </head>
+
+
+<body>
+
+	<div class="container-fluid">
+
+		<div class="container text-center" id="header">
+			<h1>Crystal Collector</h1>
+		</div>
+
+
+		<div class="container jumbotron" id="rules">
+			<h1 style="text-align: center">RULES!</h1>
+			<ul>
+				<li>You will be given a random number at the start of the game.</li>
+				<li>There are four crystals below. Each one is assigned a random number at the begining of the game. That number is hidden from you.</li>
+				<li>Click the Crystals to increase your score.</li>
+				<li>You win when your score matches the number given to you at the beginning.</li>
+			</ul>
+			<h2 style="text-align: center">Good Luck!!!</h2>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="container jumbotron col-md-5" id="randomNum" style="background: lightblue;">
+					<h1 id="ranNo" style="text-align: center;"></h1>
+				</div>
+
+				<div class="container jumbotron col-md-3" id="win/lose" style="background: lightgray; text-align: center;">
+					<p id="wins">Wins: 0</p>
+					<p id="losses">Losses: 0</p>
+			
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="crystals">
+
+			<div class="row">
+				<div class="container col-md-3">
+					<img id="red" src="assets/images/red_gem.jpg" style="height: 100px; width: 100px">
+				</div>
+				<div class="container col-md-3">
+					<img id="blue" src="assets/images/blue_gems.jpg" style="height: 100px; width: 100px; margin: 0 auto;">
+				</div>
+				<div class="container col-md-3">
+					<img id="green" src="assets/images/green_gem.jpg" style="height: 100px; width: 100px">
+				</div>
+				<div class="container col-md-3 col-sm-12">
+					<img id="aquamarine" src="assets/images/aquamarine.jpg" style="height: 100px; width: 100px">
+				</div>
+			</div>
+		</div>
+	
+		<div class="container jumbotron text-center" id="score">
+			<h3>Your Total Score Is:</h3>
+		</div>
+		<div class="container jumbotron text-center">
+			<h1 id="scoreBox">0</h1>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+<body>
+</body>
+</html>
